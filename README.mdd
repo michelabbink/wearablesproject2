@@ -1,3 +1,8 @@
 # wearablesproject2
-courseproject datacleansing
-test
+#courseproject datacleansing
+final tidy data is constructed from source data as follows: 
+1. Pulled data in from both X_train.txt and X_test.txt files and combined these
+2. Read in features.txt, transposed this to column names for combined data
+3. Then eliminated all collumns not measuring mean or std 
+4. Then added the subject colums to identify the subjects and appended this to the data
+5. Then split dataframe by subject
